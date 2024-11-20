@@ -1,7 +1,7 @@
 describe('Shop for Sunscreens', () => {
     it('should navigate to the sunscreens page and add a product to the cart if the temperature is above 34 degrees', () => {
       // Visit the temperature page
-      cy.visit('/temperature');
+      cy.visit('https://weathershopper.pythonanywhere.com/');
   
       // Verify the temperature is above 34 degrees
       cy.get('#temperature').then(($temp) => {
