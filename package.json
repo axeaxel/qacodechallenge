@@ -18,6 +18,7 @@
   "homepage": "https://github.com/axeaxel/qacodechallenge#readme",
   "devDependencies": {
     "cypress": "^9.0.0",
-    "cypress-cucumber-preprocessor": "^4.3.1"
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-iframe": "^1.0.1"
   }
 }
