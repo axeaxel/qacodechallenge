@@ -25,3 +25,6 @@
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 
 import 'cypress-iframe';
+
+Cypress.Commands.add('frameLoaded', (frameSelector) => { // Wait for the iframe to be available and ensure it's loaded cy.frameLoaded(frameSelector, { timeout: 10000 }).should('be.visible'); // Ensure the iframe is loaded and visible });
+});
